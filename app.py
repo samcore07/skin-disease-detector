@@ -18,7 +18,7 @@ st.set_page_config(
 MODEL_PATH = "skin_disease_model_final.pth"
 MODEL_URL = "https://huggingface.co/samlowkey/skin-disease/resolve/main/skin_disease_model_final.pth"
 CLASSES_PATH = "classes.json"
-TEST_FOLDER_PATH = "dataset/val"  
+TEST_FOLDER_PATH = "images_demo/val"  
 IMAGE_SIZE = 224
 
 # Download model from Hugging Face if missing
